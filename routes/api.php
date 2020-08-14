@@ -36,4 +36,4 @@ Route::get('/importarSepomex','ImportarCatalogosController@sepomex');
 
 
 //CONSULTAS
-Route::post('/consulta/codigopostal','ConsultarCatalogosController@porCodigoPostal');
+Route::get('/consulta/codigopostal','ConsultarCatalogosController@porCodigoPostal');
